@@ -4,11 +4,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: 'Maven Pro', sans-serif;
-    background-image: url(img/vinilofondo_Mesa\ de\ trabajo\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    background-attachment: fixed
+
 }
 
 @media only screen and (max-width: 992px) {
@@ -22,21 +18,59 @@ body {
 
         display: flex;
         flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-around;
-        align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
     }
 
     nav div img {
         height: 3vh;
-        margin-left: 20px;
+        margin-left: 15px;
     }
 
     nav div a {
-        color: #FCD743;
+        color:#262626;
         text-decoration: none;
     }
-}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  #menu-hamburguesa {
+    display: none;
+    
+    background-color:#FCD743;
+    width: 100%;
+    text-align: center;
+  }
+  #menu-hamburguesa ul li {
+    padding: 5px 0;
+  }
+  #menu-hamburguesa ul li a {
+    color:#363535;
+    font-size: 1em;
+   
+  }
+
+  #boton-hamburguesa {
+    background-color:#FCD743;
+    color:#262626;
+    font-size: 1em;
+    
+    padding: 2px;
+    border: none;
+    cursor: pointer;
+  }
+
 
 main {
     width: 100vw;
@@ -76,7 +110,7 @@ main {
 }
 
 .app1 h1 {
-    font-size: 2em;
+    font-size: 1.5em;
 
 
     margin: 0;
@@ -135,52 +169,80 @@ main {
 
 #banner3 {
     height: auto;
-    background-image: url(img/banner3.jpg);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
-
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-
-}
-
-
-
-.caracte1 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-}
-
-.caracte1 div {
-    background-image: url(img/vinilosolo.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 25vw;
-    width: 25vw;
-    margin: 18px;
-    padding: auto;
-}
-
-.caracte1 div h2 {
+    width: 100vw;
+    text-align: center;
+    font-size: 1em;
     color: #FCD743;
-    font-size: 1.5em;
 
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 
 }
 
-.caracteristica {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.carac{
+width: 50vw;
+height: 50vw;
 
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+#caracteristica1{
+
+background-color: #262626;
+background-image: url(img/c1.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;
+}
+
+
+#caracteristica2{
+background-color: #363535;
+   background-image: url(img/c2.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right;
+}
+
+#caracteristica4{
+background-color: #262626;
+   background-image: url(img/c3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right;
+}
+
+#caracteristica3{
+background-color: #363535;
+   background-image: url(img/c4.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right;
+}
+
+
+
+#caracteristica5{
+background-color: #262626;
+   background-image: url(img/C5.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right;
+}
+
+
+#caracteristica6{
+background-color: #363535;
+   background-image: url(img/c6.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: right;
 }
 
 #banner4 {
@@ -192,7 +254,7 @@ padding-bottom: 20px;
 }
 
 #banner4 video {
-    width: 80vw;
+    width: 100vw;
 
 }
 
@@ -224,20 +286,14 @@ justify-content: center;
 }
 
 #banner11 div{
-    width: 30vw;
-    height: 10vh;
-    background-image: url(img/feedback.png);
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 60vw;
+ 
+    
 }
 
-#banner11 div h1{
+#banner11 div h2{
     font-size: 1em;
-    color: aliceblue;
+    color:#363535;
     text-align: center;
 }
 
@@ -264,22 +320,12 @@ footer {
     nav div img {
         height: 3vh;
     }
+#menu-hamburguesa li{
+    display: flex;
 
-    nav div a {
-        color: #262626;
-        text-decoration: none;
-        padding: 15px;
-        margin-right: 25px;
-    }
+}
 
-    /*.feedback{
-    background-image: url(img/feedback.png) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 12vw;
-    height: 4vh;
-}*/
+    
 
     main {
         width: 100vw;
@@ -315,15 +361,18 @@ footer {
     }
 
     .app1 h1 {
-        font-size: 3em;
+        font-size: 2em;
         padding-left: 40px;
         margin: 0;
+        text-align: left;
     }
 
     .app1 p {
         padding-left: 40px;
         padding-right: 40px;
+        font-size: 1.5em;
         margin: 0;
+        text-align: left;
 
     }
 
@@ -369,57 +418,82 @@ footer {
 
 
     #banner3 {
-        height: 60vh;
-        background-image: url(img/banner3.jpg);
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-size: cover;
-
-
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-
-    }
-
-    #banner3 .caracte1 .caracte2 {
-        width: 45vw;
-    }
-
-    .caracte1 {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        align-content: center;
-    }
-
-    .caracte1 div {
-        background-image: url(img/vinilosolo.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        height: 15vw;
-        width: 15vw;
-        margin: 18px;
-        padding: auto;
-    }
-
-    .caracte1 div h2 {
+        height: auto;
+        width: 100vw;
+        text-align: center;
+        font-size: 1.8em;
         color: #FCD743;
-        font-size: 2em;
 
 
-    }
-
-    .caracteristica {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         justify-content: center;
-        align-items: center;
+        align-content: center;
 
     }
 
+   .carac{
+    width: 33vw;
+    height: 33vw;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
 
+#caracteristica1{
+  
+ background-color: #262626;
+    background-image: url(img/c1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+#caracteristica2{
+    background-color: #363535;
+       background-image: url(img/c2.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: right;
+   }
+
+#caracteristica3{
+    background-color: #262626;
+       background-image: url(img/c3.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: right;
+   }
+
+   #caracteristica4{
+    background-color: #363535;
+       background-image: url(img/c4.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: right;
+   }
+
+
+   
+#caracteristica5{
+    background-color: #262626;
+       background-image: url(img/C5.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: right;
+   }
+  
+
+   #caracteristica6{
+    background-color: #363535;
+       background-image: url(img/c6.png);
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: right;
+   }
 
     #banner5 {
         background-color: #FCD743;
@@ -437,24 +511,14 @@ footer {
 
     #banner11{
         height: 20vh;
-        background-color: #FCD743;
+       
 
         display: flex;
         align-items: center;
     justify-content: center;
     }
 
-    #banner11 div{
-        width: 30vw;
-        height: 10vh;
-        background-image: url(img/feedback.png);
-        background-repeat: no-repeat;
-        background-size:contain;
-        background-position: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+   
 
     #banner11 div h1{
         color: aliceblue;
