@@ -324,6 +324,9 @@ footer {
     display: flex;
 
 }
+#boton-hamburguesa{
+   /* visibility: hidden;*/
+}
 
     
 
