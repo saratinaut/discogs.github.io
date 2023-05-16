@@ -1,10 +1,13 @@
 body {
     margin: 0;
+    
     background-color: #262626;
-    height: 100vh;
-    width: 100vw;
     font-family: 'Maven Pro', sans-serif;
 
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 @media only screen and (max-width: 992px) {
@@ -18,58 +21,63 @@ body {
 
         display: flex;
         flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
-    }
 
-    nav div img {
-        height: 3vh;
-        margin-left: 15px;
-    }
+nav div img {
+    height: 3vh;
+    margin-left: 15px;
+}
 
-    nav div a {
-        color:#262626;
-        text-decoration: none;
-    }
+nav div a {
+    color: #262626;
+    text-decoration: none;
+}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  ul {
+}
+
+ul {
     list-style: none;
-  }
-  a {
+}
+
+a {
     text-decoration: none;
-  }
-  #menu-hamburguesa {
+}
+
+#menu-hamburguesa {
     display: none;
-    
-    background-color:#FCD743;
+
+    background-color: #FCD743;
     width: 100%;
     text-align: center;
-  }
-  #menu-hamburguesa ul li {
-    padding: 5px 0;
-  }
-  #menu-hamburguesa ul li a {
-    color:#363535;
-    font-size: 1em;
-   
-  }
+}
 
-  #boton-hamburguesa {
-    background-color:#FCD743;
-    color:#262626;
+#menu-hamburguesa ul li {
+    padding: 5px 0;
+}
+
+#menu-hamburguesa ul li a {
+    color: #363535;
     font-size: 1em;
-    
+
+}
+
+#boton-hamburguesa {
+    background-color: #FCD743;
+    color: #262626;
+    font-size: 1em;
+
     padding: 2px;
     border: none;
     cursor: pointer;
-  }
+}
 
 
 main {
@@ -138,14 +146,11 @@ main {
 }
 
 .app2 {
-
-
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
     flex-direction: column;
     align-items: center;
-
 }
 
 #banner2 {
@@ -174,7 +179,6 @@ main {
     font-size: 1em;
     color: #FCD743;
 
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -183,117 +187,114 @@ main {
 
 }
 
-.carac{
-width: 50vw;
-height: 50vw;
+.carac {
+    width: 50vw;
+    height: 50vw;
 
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#caracteristica1{
-
-background-color: #262626;
-background-image: url(img/c1.png);
-background-repeat: no-repeat;
-background-size: cover;
-background-position: right;
+#caracteristica1 {
+    background-color: #262626;
+    background-image: url(img/c1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 
-
-#caracteristica2{
-background-color: #363535;
-   background-image: url(img/c2.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: right;
+#caracteristica2 {
+    background-color: #363535;
+    background-image: url(img/c2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 
-#caracteristica4{
-background-color: #262626;
-   background-image: url(img/c3.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: right;
+#caracteristica4 {
+    background-color: #262626;
+    background-image: url(img/c3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 
-#caracteristica3{
-background-color: #363535;
-   background-image: url(img/c4.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: right;
+#caracteristica3 {
+    background-color: #363535;
+    background-image: url(img/c4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 
-
-
-#caracteristica5{
-background-color: #262626;
-   background-image: url(img/C5.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: right;
+#caracteristica5 {
+    background-color: #262626;
+    background-image: url(img/C5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 
-
-#caracteristica6{
-background-color: #363535;
-   background-image: url(img/c6.png);
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-position: right;
+#caracteristica6 {
+    background-color: #363535;
+    background-image: url(img/c6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
 }
 
 #banner4 {
-padding-top: 20px;
-padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #banner4 video {
-    width: 100vw;
+    width: 80vw;
 
 }
 
 #banner5 {
     background-color: #FCD743;
-    height: 20vh;
+    height: 22vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#banner5 h1{
-    padding-top: 10px;
-    font-size: 1.5em;
- }
+
+#banner5 h1 {
+    padding: 20px;
+    font-size: 2em;
+}
 
 #banner5 img {
-    height: 4vh;
+    
+    height: 8vh;
 
 }
 
-#banner11{
+#banner11 {
     height: 20vh;
     background-color: #FCD743;
 
     display: flex;
     align-items: center;
-justify-content: center;
+    justify-content: center;
 }
 
-#banner11 div{
+#banner11 div {
     width: 60vw;
- 
-    
+
+
 }
 
-#banner11 div h2{
+#banner11 div h2 {
     font-size: 1em;
-    color:#363535;
+    color: #363535;
     text-align: center;
 }
 
@@ -320,134 +321,156 @@ footer {
     nav div img {
         height: 3vh;
     }
-#menu-hamburguesa li{
+
+    #menu-hamburguesa {
+        width: 60vw;
+        visibility: visible;
+        display: flex;
+
+
+
+    }
+
+    ul {
+        margin-right: 20px;
+        width: 60vw;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-end;
+        align-items: center;
+    }
+li{
+    margin-left: 30px;
+}
+
+#boton-hamburguesa {
+    visibility: hidden;
+
+
+}
+
+
+
+main {
+    width: 100vw;
     display: flex;
-
-}
-#boton-hamburguesa{
-   /* visibility: hidden;*/
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
-    
+#banner1 {
+    height: 70vh;
+    padding-top: 6vh;
 
-    main {
-        width: 100vw;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-    #banner1 {
-        height: 70vh;
-        padding-top: 6vh;
+#app1 {
+    height: 60vh;
+    width: 40vw;
+}
 
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-evenly;
-        align-items: center;
-    }
+.app1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
 
-    #app1 {
-        height: 60vh;
-        width: 40vw;
-    }
+}
 
-    .app1 {
-        color: aliceblue;
-        display: flex;
-        justify-content: center;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        align-items: flex-start;
+.app1 h1 {
+    font-size: 2em;
+    padding-left: 40px;
+    margin: 0;
+    text-align: left;
+}
 
-    }
+.app1 p {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 1.5em;
+    margin: 0;
+    text-align: left;
 
-    .app1 h1 {
-        font-size: 2em;
-        padding-left: 40px;
-        margin: 0;
-        text-align: left;
-    }
+}
 
-    .app1 p {
-        padding-left: 40px;
-        padding-right: 40px;
-        font-size: 1.5em;
-        margin: 0;
-        text-align: left;
+.app1 img {
+    height: 5vh;
+    padding-left: 40px;
+    margin-top: 10px;
 
-    }
+}
 
-    .app1 img {
-        height: 5vh;
-        padding-left: 40px;
-        margin-top: 10px;
+.app2 img {
+    width: 40vw;
+}
 
-    }
+#banner2 {
+    background-color: #FCD743;
+    height: 25vh;
+    text-align: center;
 
-    .app2 img {
-        width: 40vw;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-    #banner2 {
-        background-color: #FCD743;
-        height: 25vh;
-        text-align: center;
+#banner2 img {
+    height: 6vh;
+}
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
+#banner4 {
+    height: 70vh;
 
-    #banner2 img {
-        height: 6vh;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    #banner4 {
-        height: 70vh;
+#banner4 video {
+    height: 60vh;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #banner4 video {
-        height: 60vh;
-
-    }
+}
 
 
 
-    #banner3 {
-        height: auto;
-        width: 100vw;
-        text-align: center;
-        font-size: 1.8em;
-        color: #FCD743;
+#banner3 {
+    height: auto;
+    width: 100vw;
+    text-align: center;
+    font-size: 1.8em;
+    color: #FCD743;
 
 
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 
-    }
+}
 
-   .carac{
+.carac {
     width: 33vw;
     height: 33vw;
-    
+
     display: flex;
     align-items: center;
     justify-content: center;
-   }
+}
 
-#caracteristica1{
-  
- background-color: #262626;
+#caracteristica1 {
+
+    background-color: #262626;
     background-image: url(img/c1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -455,85 +478,85 @@ footer {
 }
 
 
-#caracteristica2{
+#caracteristica2 {
     background-color: #363535;
-       background-image: url(img/c2.png);
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: right;
-   }
+    background-image: url(img/c2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
 
-#caracteristica3{
+#caracteristica3 {
     background-color: #262626;
-       background-image: url(img/c3.png);
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: right;
-   }
+    background-image: url(img/c3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
 
-   #caracteristica4{
+#caracteristica4 {
     background-color: #363535;
-       background-image: url(img/c4.png);
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: right;
-   }
+    background-image: url(img/c4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
 
 
-   
-#caracteristica5{
+
+#caracteristica5 {
     background-color: #262626;
-       background-image: url(img/C5.png);
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: right;
-   }
-  
+    background-image: url(img/C5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
 
-   #caracteristica6{
+
+#caracteristica6 {
     background-color: #363535;
-       background-image: url(img/c6.png);
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: right;
-   }
+    background-image: url(img/c6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
 
-    #banner5 {
-        background-color: #FCD743;
-        height: 20vh;
+#banner5 {
+    background-color: #FCD743;
+    height: 20vh;
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
-    #banner5 img {
-        height: 5vh;
+#banner5 img {
+    height: 5vh;
 
-    }
+}
 
-    #banner11{
-        height: 20vh;
-       
+#banner11 {
+    height: 20vh;
 
-        display: flex;
-        align-items: center;
+
+    display: flex;
+    align-items: center;
     justify-content: center;
-    }
+}
 
-   
 
-    #banner11 div h1{
-        color: aliceblue;
-        text-align: center;
-        font-size: 2em;
-    }
 
-    footer {
-        background-color: black;
-        height: 10vh;
-    }
+#banner11 div h2 {
+    color:#262626;
+    text-align: center;
+    font-size: 1.8em;
+}
 
-  
+footer {
+    background-color: black;
+    height: 10vh;
+}
+
+
 
 }
