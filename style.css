@@ -1,11 +1,12 @@
 body {
     margin: 0;
-    
-    background-color: #262626;
-    font-family: 'Maven Pro', sans-serif;
 
+    background-color:#0C0C0C;
+    font-family: 'Noto Sans', sans-serif;
 }
-html, body {
+
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -14,10 +15,12 @@ html, body {
 
     /* For mobile phones: */
     nav {
-        background-color: #FCD743;
+        background-color: #BBD14B;
         width: 100vw;
         height: 6vh;
         position: fixed;
+        border-radius: 0px 0px 20px 20px;
+
 
         display: flex;
         flex-direction: row;
@@ -54,7 +57,7 @@ a {
 #menu-hamburguesa {
     display: none;
 
-    background-color: #FCD743;
+    background-color: #BBD14B;
     width: 100%;
     text-align: center;
 }
@@ -70,7 +73,7 @@ a {
 }
 
 #boton-hamburguesa {
-    background-color: #FCD743;
+    background-color: #BBD14B;
     color: #262626;
     font-size: 1em;
 
@@ -141,6 +144,7 @@ main {
 }
 
 .app2 img {
+    margin: 15px;
     width: 80vw;
 
 }
@@ -154,7 +158,7 @@ main {
 }
 
 #banner2 {
-    background-color: #FCD743;
+    background-color: #BBD14B;
     height: 20vh;
     text-align: center;
 
@@ -176,8 +180,8 @@ main {
     height: auto;
     width: 100vw;
     text-align: center;
-    font-size: 1em;
-    color: #FCD743;
+    font-size: 0.8em;
+    color: #BBD14B;
 
     display: flex;
     flex-direction: row;
@@ -258,8 +262,9 @@ main {
 }
 
 #banner5 {
-    background-color: #FCD743;
+    background-color: #BBD14B;
     height: 22vh;
+    border-radius: 80px;
 
     display: flex;
     flex-direction: column;
@@ -272,14 +277,16 @@ main {
 }
 
 #banner5 img {
-    
-    height: 8vh;
+
+    height: 7vh;
 
 }
 
 #banner11 {
     height: 20vh;
-    background-color: #FCD743;
+    background-color: #BBD14B;
+    border-radius: 80px;
+
 
     display: flex;
     align-items: center;
@@ -298,18 +305,16 @@ main {
     text-align: center;
 }
 
-footer {
-    background-color: black;
-    height: 10vh;
-}
+
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     nav {
-        background-color: #FCD743;
-        width: 100vw;
+        background-color: #BBD14B;
+        width: 99vw;
         height: 6vh;
         position: fixed;
+        border-radius: 0px 0px 35px 35px;
 
         display: flex;
         flex-direction: row;
@@ -341,221 +346,253 @@ footer {
         justify-content: flex-end;
         align-items: center;
     }
-li{
-    margin-left: 30px;
-}
 
-#boton-hamburguesa {
-    visibility: hidden;
+    li {
+        margin-left: 30px;
+    }
 
-
-}
+    #boton-hamburguesa {
+        visibility: hidden;
 
 
-
-main {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-#banner1 {
-    height: 70vh;
-    padding-top: 6vh;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-#app1 {
-    height: 60vh;
-    width: 40vw;
-}
-
-.app1 {
-    color: aliceblue;
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: flex-start;
-
-}
-
-.app1 h1 {
-    font-size: 2em;
-    padding-left: 40px;
-    margin: 0;
-    text-align: left;
-}
-
-.app1 p {
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 1.5em;
-    margin: 0;
-    text-align: left;
-
-}
-
-.app1 img {
-    height: 5vh;
-    padding-left: 40px;
-    margin-top: 10px;
-
-}
-
-.app2 img {
-    width: 40vw;
-}
-
-#banner2 {
-    background-color: #FCD743;
-    height: 25vh;
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#banner2 img {
-    height: 6vh;
-}
-
-#banner4 {
-    height: 70vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#banner4 video {
-    height: 60vh;
-
-}
+    }
 
 
 
-#banner3 {
-    height: auto;
-    width: 100vw;
-    text-align: center;
-    font-size: 1.8em;
-    color: #FCD743;
+    main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
 
+    #banner1 {
+        height: 70vh;
+        padding-top: 6vh;
 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
-}
+    #app1 {
+        height: 60vh;
+        width: 40vw;
+    }
 
-.carac {
-    width: 33vw;
-    height: 33vw;
+    .app1 {
+        color: aliceblue;
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: flex-start;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    }
 
-#caracteristica1 {
+    .app1 h1 {
+        font-size: 2em;
+        padding-left: 40px;
+        margin: 0;
+        text-align: left;
+    }
 
-    background-color: #262626;
-    background-image: url(img/c1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
+    .app1 p {
+        padding-left: 40px;
+        padding-right: 40px;
+        font-size: 1.5em;
+        margin: 0;
+        text-align: left;
 
+    }
 
-#caracteristica2 {
-    background-color: #363535;
-    background-image: url(img/c2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
+    .app1 img {
+        height: 5vh;
+        padding-left: 40px;
+        margin-top: 10px;
 
-#caracteristica3 {
-    background-color: #262626;
-    background-image: url(img/c3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
+    }
 
-#caracteristica4 {
-    background-color: #363535;
-    background-image: url(img/c4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
+    .app2 img {
+        width: 28vw;
+    }
 
+    #banner2 {
+        background-color: #BBD14B;
+        height: 25vh;
+        text-align: center;
 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 
-#caracteristica5 {
-    background-color: #262626;
-    background-image: url(img/C5.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
+    #banner2 img {
+        height: 6vh;
+    }
 
+    #banner4 {
+        height: 70vh;
 
-#caracteristica6 {
-    background-color: #363535;
-    background-image: url(img/c6.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-#banner5 {
-    background-color: #FCD743;
-    height: 20vh;
+    #banner4 video {
+        height: 60vh;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#banner5 img {
-    height: 5vh;
-
-}
-
-#banner11 {
-    height: 20vh;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    }
 
 
 
-#banner11 div h2 {
-    color:#262626;
-    text-align: center;
-    font-size: 1.8em;
-}
+    #banner3 {
+        height: auto;
+        width: 100vw;
+        text-align: center;
+        font-size: 2em;
+        color: #BBD14B;
 
-footer {
-    background-color: black;
-    height: 10vh;
-}
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .carac {
+        width: 33vw;
+        height: 33vw;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #caracteristica1 {
+
+        background-color: #262626;
+        background-image: url(img/c1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica1:hover {
+        background-image: url(img/c1.2.png);
+        color: aliceblue
+    }
+
+
+    #caracteristica2 {
+        background-color: #363535;
+        background-image: url(img/c2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica2:hover {
+        background-image: url(img/c2.2.png);
+        color: aliceblue
+    }
+
+    #caracteristica3 {
+        background-color: #262626;
+        background-image: url(img/c3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica3:hover {
+        background-image: url(img/c3.2.png);
+        color: aliceblue
+    }
+
+    #caracteristica4 {
+        background-color: #363535;
+        background-image: url(img/c4.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    #caracteristica4:hover {
+        background-image: url(img/c2.2.png);
+        color: aliceblue
+    }
+
+
+    #caracteristica5 {
+        background-color: #262626;
+        background-image: url(img/C5.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    #caracteristica5:hover {
+        background-image: url(img/c3.2.png);
+        color: aliceblue
+    }
+
+
+    #caracteristica6 {
+        background-color: #363535;
+        background-image: url(img/c6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+    #caracteristica6:hover {
+        background-image: url(img/c6.2.png);
+        color: aliceblue
+    }
+
+    #banner5 {
+        background-color: #BBD14B;
+        height: 20vh;
+        width: 98.7vw;
+        border-radius: 100px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner5 img {
+        height: 5vh;
+
+    }
+
+    #banner11 {
+        width: 98.8vw;
+        height: 20vh;
+        border-radius: 100px;
+
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    #banner11 div h2 {
+        color: #262626;
+        text-align: center;
+        font-size: 1.8em;
+    }
+
+    footer {
+        background-color: black;
+        height: 10vh;
+    }
 
 
 
