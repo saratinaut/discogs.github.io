@@ -32,13 +32,14 @@ body {
 
 nav div img {
     height: 3vh;
-    margin-left: 15px;
-    border-radius: 0px
+  
+    
+    
     
 }
 
 nav div a {
-    color: #262626;
+    color: #0C0C0C;
     text-decoration: none;
 }
 
@@ -46,11 +47,12 @@ nav div a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border-radius: 0px 0px 50px 50px;
+    
 }
 
 ul {
     list-style: none;
+    padding: 8px;
 }
 
 a {
@@ -59,10 +61,16 @@ a {
 
 #menu-hamburguesa {
     display: none;
+    border-radius: 50px 50px 50px 50px;
+  position: absolute;
+  top:55px;
 
     background-color: #BBD14B;
     width: 100%;
+    height: auto;
     text-align: center;
+   
+
 }
 
 #menu-hamburguesa ul li {
@@ -70,14 +78,15 @@ a {
 }
 
 #menu-hamburguesa ul li a {
-    color: #363535;
+    color: #0C0C0C;
     font-size: 1em;
+ 
 
 }
 
 #boton-hamburguesa {
     background-color: #BBD14B;
-    color: #262626;
+    color: #0C0C0C;
     font-size: 1em;
 
     padding: 2px;
@@ -95,7 +104,7 @@ main {
 
 #banner1 {
     height: auto;
-    padding-top: 15vh;
+    padding-top: 10vh;
 
 
     display: flex;
@@ -197,6 +206,7 @@ main {
 .carac {
     width: 50vw;
     height: 50vw;
+    border-radius: 0px;
 
     display: flex;
     align-items: center;
@@ -204,7 +214,7 @@ main {
 }
 
 #caracteristica1 {
-    background-color: #262626;
+    background-color: #171717;
     background-image: url(img/c1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -212,7 +222,7 @@ main {
 }
 
 #caracteristica2 {
-    background-color: #363535;
+    background-color: #353435;
     background-image: url(img/c2.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -220,7 +230,7 @@ main {
 }
 
 #caracteristica4 {
-    background-color: #262626;
+    background-color:#171717;
     background-image: url(img/c3.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,23 +238,28 @@ main {
 }
 
 #caracteristica3 {
-    background-color: #363535;
-    background-image: url(img/c4.png);
+    background-color: #353435;
+    background-image: url(img/c2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
 }
 
 #caracteristica5 {
-    background-color: #262626;
-    background-image: url(img/C5.png);
+    background-color: #171717;
+    background-image: url(img/c3.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+    display: flex;
+        flex-direction: column;
+}
+#caracteristica5 img {
+    width: 12vw;
 }
 
 #caracteristica6 {
-    background-color: #363535;
+    background-color: #353435;
     background-image: url(img/c6.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -252,22 +267,23 @@ main {
 }
 
 #banner4 {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #banner4 video {
-    width: 80vw;
+    width: 90vw;
 
 }
 
 #banner5 {
     background-color: #BBD14B;
-    height: 22vh;
-    border-radius: 80px;
+    height: 20vh;
+    border-radius: 0px;
+    border-radius: 120px 120px 0px 0px;
 
     display: flex;
     flex-direction: column;
@@ -322,18 +338,25 @@ main {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        justify-content: space-around;
+        
         align-items: center;
     }
 
     nav div img {
         height: 3vh;
+        margin-left: 100px;
+        
     }
 
     #menu-hamburguesa {
-        width: 60vw;
+        width: 50vw;
         visibility: visible;
         display: flex;
+        position: absolute;
+        top:-2px;
+        left: 500px;
+        background-color: transparent
+
 
 
 
@@ -396,7 +419,7 @@ main {
     }
 
     .app1 h1 {
-        font-size: 2em;
+        font-size: 2.5em;
         padding-left: 40px;
         margin: 0;
         text-align: left;
@@ -439,6 +462,8 @@ main {
 
     #banner4 {
         height: 70vh;
+        margin-top: 40px;
+        margin-bottom: 40px;
 
         display: flex;
         justify-content: center;
@@ -446,7 +471,7 @@ main {
     }
 
     #banner4 video {
-        height: 60vh;
+        height: 70vh;
 
     }
 
@@ -458,6 +483,7 @@ main {
         text-align: center;
         font-size: 2em;
         color: #BBD14B;
+        
 
 
         display: flex;
@@ -471,6 +497,7 @@ main {
     .carac {
         width: 33vw;
         height: 33vw;
+        border-radius: 0px;
 
         display: flex;
         align-items: center;
@@ -479,7 +506,7 @@ main {
 
     #caracteristica1 {
 
-        background-color: #262626;
+        background-color: #171717;
         background-image: url(img/c1.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -493,7 +520,7 @@ main {
 
 
     #caracteristica2 {
-        background-color: #363535;
+        background-color: #353435;
         background-image: url(img/c2.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -506,7 +533,7 @@ main {
     }
 
     #caracteristica3 {
-        background-color: #262626;
+        background-color: #171717;
         background-image: url(img/c3.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -519,8 +546,8 @@ main {
     }
 
     #caracteristica4 {
-        background-color: #363535;
-        background-image: url(img/c4.png);
+        background-color: #353435;
+        background-image: url(img/c2.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: right;
@@ -532,11 +559,16 @@ main {
 
 
     #caracteristica5 {
-        background-color: #262626;
-        background-image: url(img/C5.png);
+        background-color:#171717;
+        background-image: url(img/C3.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: right;
+        display: flex;
+        flex-direction: column;
+    }
+    #caracteristica5 img {
+        width: 12vw;
     }
     #caracteristica5:hover {
         background-image: url(img/c3.2.png);
@@ -545,7 +577,7 @@ main {
 
 
     #caracteristica6 {
-        background-color: #363535;
+        background-color: #353435;
         background-image: url(img/c6.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -565,6 +597,7 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
+        border-radius: 100px 100px 0 0;
     }
 
     #banner5 img {
@@ -587,15 +620,11 @@ main {
 
 
     #banner11 div h2 {
-        color: #262626;
+        color: #171717;
         text-align: center;
         font-size: 1.8em;
     }
 
-    footer {
-        background-color: black;
-        height: 10vh;
-    }
 
 
 
