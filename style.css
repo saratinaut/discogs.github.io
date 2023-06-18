@@ -1,7 +1,7 @@
 body {
     margin: 0;
 
-    background-color:#0C0C0C;
+    background-color: #0C0C0C;
     font-family: 'Noto Sans', sans-serif;
 }
 
@@ -11,7 +11,10 @@ body {
     overflow-x: hidden;
 }
 
-@media only screen and (max-width: 992px) {
+
+
+
+@media only screen and (max-width: 600px) {
 
     /* For mobile phones: */
     nav {
@@ -28,306 +31,624 @@ body {
         justify-content: space-around;
         align-items: center;
     }
-}
 
-nav div img {
-    height: 3vh;
-  
-    
-    
-    
-}
-
-nav div a {
-    color: #0C0C0C;
-    text-decoration: none;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
-}
-
-ul {
-    list-style: none;
-    padding: 8px;
-}
-
-a {
-    text-decoration: none;
-}
-
-#menu-hamburguesa {
-    display: none;
-    border-radius: 50px 50px 50px 50px;
-  position: absolute;
-  top:55px;
-
-    background-color: #BBD14B;
-    width: 100%;
-    height: auto;
-    text-align: center;
-   
-
-}
-
-#menu-hamburguesa ul li {
-    padding: 5px 0;
-}
-
-#menu-hamburguesa ul li a {
-    color: #0C0C0C;
-    font-size: 1em;
- 
-
-}
-
-#boton-hamburguesa {
-    background-color: #BBD14B;
-    color: #0C0C0C;
-    font-size: 1em;
-
-    padding: 2px;
-    border: none;
-    cursor: pointer;
-}
+    nav div img {
+        height: 3vh;
 
 
-main {
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
-
-#banner1 {
-    height: auto;
-    padding-top: 10vh;
 
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-}
+    }
 
-#app1 {
-    height: auto;
-    width: 90vw;
+    nav div a {
+        color: #0C0C0C;
+        text-decoration: none;
+    }
 
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
 
-.app1 {
-    color: aliceblue;
+    }
 
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
+    ul {
+        list-style: none;
+        padding: 8px;
+    }
 
-}
+    a {
+        text-decoration: none;
+    }
 
-.app1 h1 {
-    font-size: 1.5em;
+    #menu-hamburguesa {
+        display: none;
+        border-radius: 50px 50px 50px 50px;
+        position: absolute;
+        top: 55px;
+
+        background-color: #BBD14B;
+        width: 100%;
+        height: auto;
+        text-align: center;
 
 
-    margin: 0;
-    text-align: center;
-}
+    }
 
-.app1 p {
-    text-align: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    margin: 0;
+    #menu-hamburguesa ul li {
+        padding: 5px 0;
+    }
 
-}
+    #menu-hamburguesa ul li a {
+        color: #0C0C0C;
+        font-size: 1em;
 
-.app1 img {
-    height: 5vh;
 
-    margin-top: 20px;
+    }
 
-}
+    #boton-hamburguesa {
+        background-color: #BBD14B;
+        color: #0C0C0C;
+        font-size: 1em;
 
-.app2 img {
-    margin: 15px;
-    width: 80vw;
+        padding: 2px;
+        border: none;
+        cursor: pointer;
+    }
 
-}
 
-.app2 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-}
-
-#banner2 {
-    background-color: #BBD14B;
-    height: 20vh;
-    text-align: center;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-#banner2 h2 {
-    font-size: 1em;
-}
-
-#banner2 img {
-    height: 5vh;
-}
-
-#banner3 {
-    height: auto;
-    width: 100vw;
-    text-align: center;
-    font-size: 0.8em;
-    color: #BBD14B;
-
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: center;
-
-}
-
-.carac {
-    width: 50vw;
-    height: 50vw;
-    border-radius: 0px;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#caracteristica1 {
-    background-color: #171717;
-    background-image: url(img/c1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
-
-#caracteristica2 {
-    background-color: #353435;
-    background-image: url(img/c2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
-
-#caracteristica4 {
-    background-color:#171717;
-    background-image: url(img/c3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
-
-#caracteristica3 {
-    background-color: #353435;
-    background-image: url(img/c2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
-
-#caracteristica5 {
-    background-color: #171717;
-    background-image: url(img/c3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-    display: flex;
+    main {
+        width: 100vw;
+        display: flex;
         flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    #banner1 {
+        height: auto;
+        padding-top: 10vh;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #app1 {
+        height: auto;
+        width: 90vw;
+
+    }
+
+    .app1 {
+        color: aliceblue;
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .app1 h1 {
+        font-size: 1.5em;
+
+
+        margin: 0;
+        text-align: center;
+    }
+
+    .app1 p {
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+
+    }
+
+    .app1 img {
+        height: 5vh;
+
+        margin-top: 20px;
+
+    }
+
+    .app2 img {
+        margin: 15px;
+        width: 80vw;
+
+    }
+
+    .app2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner2 {
+        background-color: #BBD14B;
+        height: 20vh;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #banner2 h2 {
+        font-size: 1em;
+    }
+
+    #banner2 img {
+        height: 5vh;
+    }
+
+    #banner3 {
+        height: auto;
+        width: 100vw;
+        text-align: center;
+        font-size: 0.8em;
+        color: #BBD14B;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .carac {
+        width: 50vw;
+        height: 50vw;
+        border-radius: 0px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #caracteristica1 {
+        background-color: #171717;
+        background-image: url(img/c1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica2 {
+        background-color: #353435;
+        background-image: url(img/c2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica4 {
+        background-color: #171717;
+        background-image: url(img/c3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica3 {
+        background-color: #353435;
+        background-image: url(img/c2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica5 {
+        background-color: #171717;
+        background-image: url(img/c3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #caracteristica5 img {
+        width: 12vw;
+    }
+
+    #caracteristica6 {
+        background-color: #353435;
+        background-image: url(img/c6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #banner4 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner4 video {
+        width: 90vw;
+
+    }
+
+    #banner5 {
+        background-color: #BBD14B;
+        height: 20vh;
+        border-radius: 0px;
+        border-radius: 120px 120px 0px 0px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner5 h1 {
+        padding: 20px;
+        font-size: 2em;
+    }
+
+    #banner5 img {
+
+        height: 7vh;
+
+    }
+
+    #banner11 {
+        height: 20vh;
+        background-color: #BBD14B;
+        border-radius: 80px;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #banner11 div {
+        width: 60vw;
+
+
+    }
+
+    #banner11 div h2 {
+        font-size: 1em;
+        color: #363535;
+        text-align: center;
+    }
+
 }
-#caracteristica5 img {
-    width: 12vw;
+
+
+@media only screen and (min-width: 600px) and (max-width: 1350px) {
+
+    /* For mobile tablet: */
+    nav {
+        background-color: #BBD14B;
+        width: 100vw;
+        height: 6vh;
+        position: fixed;
+        border-radius: 0px 0px 50px 50px;
+
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    nav div img {
+        height: 3vh;
+
+
+
+
+    }
+
+    nav div a {
+        color: #0C0C0C;
+        text-decoration: none;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+
+    }
+
+    ul {
+        list-style: none;
+        padding: 8px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    #menu-hamburguesa {
+        display: none;
+        border-radius: 50px 50px 50px 50px;
+        position: absolute;
+        top: 55px;
+
+        background-color: #BBD14B;
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+
+    }
+
+    #menu-hamburguesa ul li {
+        padding: 5px 0;
+    }
+
+    #menu-hamburguesa ul li a {
+        color: #0C0C0C;
+        font-size: 1em;
+
+
+    }
+
+    #boton-hamburguesa {
+        background-color: #BBD14B;
+        color: #0C0C0C;
+        font-size: 1em;
+
+        padding: 2px;
+        border: none;
+        cursor: pointer;
+    }
+
+
+    main {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    #banner1 {
+        height: auto;
+        padding-top: 10vh;
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #app1 {
+        height: auto;
+        width: 80vw;
+
+    }
+
+    .app1 {
+        color: aliceblue;
+
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .app1 h1 {
+        font-size: 2em;
+
+
+        margin: 0;
+        text-align: center;
+    }
+
+    .app1 p {
+        text-align: center;
+        padding-left: 40px;
+        padding-right: 40px;
+        margin: 0;
+        font-size: 1.2em;
+
+    }
+
+    .app1 img {
+        height: 5vh;
+
+        margin-top: 20px;
+
+    }
+
+    .app2 img {
+        margin: 50px;
+        width: 65vw;
+
+    }
+
+    .app2 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner2 {
+        background-color: #BBD14B;
+        height: 20vh;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #banner2 h2 {
+        font-size: 1em;
+    }
+
+    #banner2 img {
+        height: 5vh;
+    }
+
+    #banner3 {
+        height: auto;
+        width: 100vw;
+        text-align: center;
+        font-size: 1.7em;
+        color: #BBD14B;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .carac {
+        width: 50vw;
+        height: 50vw;
+        border-radius: 0px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #caracteristica1 {
+        background-color: #171717;
+        background-image: url(img/c1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica2 {
+        background-color: #353435;
+        background-image: url(img/c2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica4 {
+        background-color: #171717;
+        background-image: url(img/c3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica3 {
+        background-color: #353435;
+        background-image: url(img/c2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #caracteristica5 {
+        background-color: #171717;
+        background-image: url(img/c3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #caracteristica5 img {
+        width: 15vw;
+    }
+
+    #caracteristica6 {
+        background-color: #353435;
+        background-image: url(img/c6.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+    }
+
+    #banner4 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #banner4 video {
+        width: 90vw;
+
+    }
+
+    #banner5 {
+        background-color: #BBD14B;
+        height: 15vh;
+        border-radius: 0px;
+        border-radius: 150px 150px 0px 0px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #banner5 h1 {
+        padding: 20px;
+        font-size: 2em;
+    }
+
+    #banner5 img {
+
+        height: 5vh;
+
+    }
+
+    #banner11 {
+        height: 20vh;
+        background-color: #BBD14B;
+        border-radius: 200px;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #banner11 div {
+        width: 60vw;
+
+
+    }
+
+    #banner11 div h2 {
+        font-size: 1.5em;
+        color: #363535;
+        text-align: center;
+    }
+
 }
 
-#caracteristica6 {
-    background-color: #353435;
-    background-image: url(img/c6.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
-}
 
-#banner4 {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#banner4 video {
-    width: 90vw;
-
-}
-
-#banner5 {
-    background-color: #BBD14B;
-    height: 20vh;
-    border-radius: 0px;
-    border-radius: 120px 120px 0px 0px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#banner5 h1 {
-    padding: 20px;
-    font-size: 2em;
-}
-
-#banner5 img {
-
-    height: 7vh;
-
-}
-
-#banner11 {
-    height: 20vh;
-    background-color: #BBD14B;
-    border-radius: 80px;
-
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#banner11 div {
-    width: 60vw;
-
-
-}
-
-#banner11 div h2 {
-    font-size: 1em;
-    color: #363535;
-    text-align: center;
-}
-
-
-
-/* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+/* Large devices (desktops, 1350px and up)*/
+@media (min-width: 1350px) {
     nav {
         background-color: #BBD14B;
         width: 99vw;
@@ -338,33 +659,44 @@ main {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
-        
+
         align-items: center;
     }
 
     nav div img {
         height: 3vh;
         margin-left: 100px;
-        
+
     }
 
     #menu-hamburguesa {
-        width: 50vw;
+        width: 30vw;
         visibility: visible;
         display: flex;
-        position: absolute;
-        top:-2px;
-        left: 500px;
-        background-color: transparent
+        position: relative;
+      
+        left: 650px;
+        background-color: transparent;
 
 
 
 
     }
 
+    a {
+        text-decoration: none;
+        color: #171717;
+    }
+
+    a:hover {
+        color: aliceblue;
+    }
+
     ul {
+        list-style: none;
         margin-right: 20px;
         width: 60vw;
+        font-size: 1.1em;
 
         display: flex;
         flex-direction: row;
@@ -483,7 +815,7 @@ main {
         text-align: center;
         font-size: 2em;
         color: #BBD14B;
-        
+
 
 
         display: flex;
@@ -552,6 +884,7 @@ main {
         background-size: cover;
         background-position: right;
     }
+
     #caracteristica4:hover {
         background-image: url(img/c2.2.png);
         color: aliceblue
@@ -559,7 +892,7 @@ main {
 
 
     #caracteristica5 {
-        background-color:#171717;
+        background-color: #171717;
         background-image: url(img/C3.png);
         background-repeat: no-repeat;
         background-size: cover;
@@ -567,9 +900,11 @@ main {
         display: flex;
         flex-direction: column;
     }
+
     #caracteristica5 img {
         width: 12vw;
     }
+
     #caracteristica5:hover {
         background-image: url(img/c3.2.png);
         color: aliceblue
@@ -583,6 +918,7 @@ main {
         background-size: cover;
         background-position: right;
     }
+
     #caracteristica6:hover {
         background-image: url(img/c6.2.png);
         color: aliceblue
@@ -606,6 +942,7 @@ main {
     }
 
     #banner11 {
+        background-color: #BBD14B;
         width: 98.8vw;
         height: 20vh;
         border-radius: 100px;
